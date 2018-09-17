@@ -12,7 +12,7 @@ using namespace std;
 */
 int SortAnalysis(auto& A )
 {
-  int count = 0u;
+   int count = 0u;
   
   for (int i = 1u; i < A.size(); i++)
    {
@@ -30,7 +30,7 @@ int SortAnalysis(auto& A )
  
    }
   
-  return count;
+return count;
 }
 
 
